@@ -17,7 +17,7 @@ hogar = ['Air Fryer', 'Licuadora']
 
 ## Tiendas
 tiendas = ['Exito', 'Falabella', 'Outlet las Americas', 'Ktronix', 'Carulla', 'Zara', 'Corabastos', 'San Andresito']
- 						# 1					 2								3									4						5				6						7							8
+            # 1.         2.              3.                4           5.       6           7.          8.  
 # Discriminado
 tmercado = ['Exito', 'Carulla', 'Corabastos']
 tropa = ['Exito', 'Falabella', 'Outlet las Americas', 'San Andresito', 'Zara']
