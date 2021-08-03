@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 ### Conjuntos ###
 ## Productos
 productos = ['Arroz', 'Papa', 'Tomates', 'Camisas', 'Zapatos', 'Air Fryer', 'Licuadora']
-              # 0				1					2					3						4						5							6					
+              # 0.      1         2.         3.        4.          5.            6. 					
 tipos = ['Mercado', 'Ropa', 'Hogar']
 # Discriminado
 mercado = ['Arroz', 'Papa', 'Tomates']
