@@ -91,7 +91,8 @@ for tienda in tiendas:
     for tienda2 in tiendas:
         distancias[(tienda,tienda2)] = ((coor[tienda][0] - coor[tienda2][0])**2 + \
                                         (coor[tienda][1] - coor[tienda2][1])**2)**(1/2)
-
+	distancias[(tienda2,tienda)] = distancias[(tienda,tienda2)]
+	
 ## Graficos				
 # Color de las cajas en los boxplots
 color = {'Exito': 'yellow', 'Falabella': 'green', 'Outlet las Americas': 'blue', 'Ktronix': 'red', 'Carulla': 'orange',
