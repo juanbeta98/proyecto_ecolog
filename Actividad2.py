@@ -223,4 +223,5 @@ def graficar_rutas(Graficar):
         plt.title('Ruta Elegida') 
         plt.show()
 
+				#show
 
