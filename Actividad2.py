@@ -85,7 +85,7 @@ coor['San Andresito'] = (4,3)
 # Distancias
 distancias = {}
 for tienda in tiendas:
-	  distancias[('Casa', tienda)] = ((coor[tienda][0] - coor['Casa'][0])**2 + \
+    distancias[('Casa', tienda)] = ((coor[tienda][0] - coor['Casa'][0])**2 + \
                                         (coor[tienda][1] - coor['Casa'][1])**2)**(1/2)
     distancias[(tienda, 'Casa')] = distancias[('Casa', tienda)]
     for tienda2 in tiendas:
