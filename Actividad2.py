@@ -226,5 +226,6 @@ def graficar_rutas(Graficar):
         plt.title('Ruta Elegida') 
         plt.show()
 
-				#show
+def prueba(text):
+	print(texto)
 
