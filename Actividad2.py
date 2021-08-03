@@ -83,15 +83,17 @@ coor['Corabastos'] = (35, 19)
 coor['San Andresito'] = (4,3)
 
 # Distancias
+# Distancias
 distancias = {}
 for tienda in tiendas:
-	distancias[('Casa', tienda)] = ((coor[tienda][0] - coor['Casa'][0])**2 + \
-			(coor[tienda][1] - coor['Casa'][1])**2)**(1/2)
-	distancias[(tienda, 'Casa')] = distancias[('Casa', tienda)]
-	for tienda2 in tiendas:
-		distancias[(tienda,tienda2)] = ((coor[tienda][0] - coor[tienda2][0])**2 + \
-			(coor[tienda][1] - coor[tienda2][1])**2)**(1/2)
-		distancias[(tienda2,tienda)] = distancias[(tienda,tienda2)]
+    for tienda2 in tiendas:
+        distancias[(tienda,tienda2)] = ((coor[tienda][0] - coor[tienda2][0])**2 + \
+                                        (coor[tienda][1] - coor[tienda2][1])**2)**(1/2)
+    
+    distancias[('Casa', tienda)] = ((coor[tienda][0] - coor['Casa'][0])**2 + \
+                                        (coor[tienda][1] - coor['Casa'][1])**2)**(1/2)
+
+    distancias[(tienda, 'Casa')] = distancias[('Casa', tienda)]
 	
 ## Graficos				
 # Color de las cajas en los boxplots
